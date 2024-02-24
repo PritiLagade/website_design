@@ -1,0 +1,345 @@
+
+#wrapper{
+    overflow: hidden;
+    width: 1500px;
+    height: 9000px;
+}
+.navigation{
+    width: 1500px;
+    height: 50px;
+}
+.logo{
+    height: 55px;
+    width: 500px;
+    float: left;
+}
+span{
+    display:block;
+    height: 50px;
+    width: 500px;
+}
+.logoname{
+    text-align: center;
+    font-size:250%;
+    color:black;
+    text-transform: lowercase;
+    font-family: 'Satisfy', cursive;
+    padding: 0px;
+    margin: 0px;
+}
+img{
+    height: 50px;
+    width: 450px;
+}
+.menu{
+    width: 1000px;
+    height: 55px;
+    float: right;
+}
+li{
+    list-style: none;
+    float: left;
+    margin-bottom:2px ;
+    margin-top:2px ;
+}
+.menu-item{
+    color: black;
+    padding: 15px;
+    text-decoration: none;
+    font-size:large;
+    cursor: pointer;
+    color: black;
+    height: 30px;
+    border-radius: 5px;
+    letter-spacing: 0.5px;
+}
+.menu-item:active{
+    content: "";
+    position: absolute;
+    background-color:black;
+    height: 3px;
+    width: 100px;
+    left:0;
+    bottom: -10px;
+    
+}
+h3{
+font-family: 'Cutive Mono', monospace;
+text-align: center;
+text-decoration: underline; 
+text-transform: uppercase;
+} 
+h1{
+    text-align: center;
+    text-transform: uppercase;
+}
+.banner{
+    height: 550px;
+    width: 1500px;
+}
+img{
+    height: 550px;
+    width: 1500px;
+    background-attachment: scroll;
+}
+.intro{
+    height: 120px;
+    width: 1500px;
+}
+.para{
+    text-align: center;
+    font-size: x-large;
+    color:black;
+}
+pre{
+    text-align: center;
+}
+.img-gallary{
+    background-color: whitesmoke;
+
+    width: 1500px;
+    height:1100px;
+}
+.listimg{
+    list-style:none;
+   margin-left: 75px;
+}
+.imgitem{
+margin-left: 50px;
+margin-top: 20px;
+left: 50px;
+border: 1px black;
+margin-bottom: 25px;
+height: 200px;
+width: 350px;
+transition: scale 400ms;
+}
+.imgitem:hover{
+    scale: 120%;
+}
+.introTwo{
+    width: 1500px;
+    height: 430px;
+}
+.aboutme{
+    text-align: center;
+    width: 1500px;
+    height: 55px;
+}
+.para{
+    color:navy;
+    font-family: 'Ysabeau Infant', sans-serif;
+}
+.big-section{
+    width: 725px;
+    height: 350px;
+    padding: 0px;
+    float: left;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 22px;
+    margin-top: 12px;
+}
+.pone{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 150%;
+    text-align: left;
+    color: black;
+}
+.ptwo{
+    color:gray;
+    text-align: left;
+
+}
+.small-section{
+    width: 725px;
+    height: 350px;
+    font-size:medium;
+    text-decoration:solid ;
+    float: right;
+    font-family: 'Oleo Script', cursive;    
+    margin-right: 28px;
+    margin-top: 12px;
+}
+.testimonials{
+    width: 1500px;
+    height: 400px;
+   background-image: url(/Dark-Aesthetic-Wallpaper-HD-City-Night.jpg);
+   color: white;
+}
+.test{
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.features{
+    width: 1500px;
+    height: 1000px;
+    border: 1px solid black;
+}
+.feapara{
+    width: 1500px;
+    height: 50px;
+    text-align: center;
+    font-family: 'Ysabeau Infant', sans-serif;
+}
+.container{
+    width: 1500px;
+    height: 700px;
+    padding-left: 150px;
+    padding-top: 50px;
+
+}
+.box{
+    background-color: whitesmoke;
+    border-radius: 25px;
+    float: left;
+    width: 350px;
+    height: 250px;
+    margin: 25px;
+}  
+.box img{
+    margin-left: 150px;
+    height:45px;
+    width:60px;
+    margin-top: 15px;
+    background-color: rgb(233, 228, 228);
+}
+.box h2{
+    font-size: large;
+    color: black;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.box p{
+    color: gray;
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.6;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.videoreel{
+    width: 1500px;
+    height: 500px;
+   display: flex;
+   background-color: black;
+}
+.Compilation{
+    width: 700px;
+    height: 500px;
+    float: left;
+}
+h2{
+    font-family: 'Oleo Script', cursive;
+    color: white;    
+}
+.videopara{
+    font-family: 'Ysabeau Infant', sans-serif;
+    color: white;
+}
+input{
+    height: 50px;
+    width: 100px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Cutive Mono', monospace;
+    margin-left: 300px;
+    margin-top: 50px;
+
+}
+input:hover{
+    
+    align-items: center;
+}
+.reel{
+    width: 800px;
+    height: 500px;
+    float: right;
+}
+video{
+    width: 800px;
+    height: 500px;
+}
+h4{
+    color: white;
+    font-family: 'Cutive Mono', monospace;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+.service{
+    width: 1500px;
+    height:800px;
+}
+.servicepara{
+    text-align: center;
+    font-family: 'Ysabeau Infant', sans-serif;
+}
+.sTop{
+    width: 1500px;
+    height: 200px;
+}
+.sBottom{
+    width: 1500px;
+    height: 800px;
+    display: flex;
+}
+.B1{
+    margin-left: 250px;
+    margin-top: 30px;
+}
+.tOne{
+    width: 300px;
+    height: 100px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.B2{
+    margin: 25px;
+    margin-top: 30px;
+}
+.tTwo{
+    width: 300px;
+    height: 100px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-left: 20px;
+}
+.B3{
+    margin-right: 250px;
+    margin-top: 30px;
+}
+.tThree{
+    width: 300px;
+    height: 100px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-left: 20px;
+}
+th{
+    border: 1px solid rgb(196, 188, 188);
+    height: 90px;
+    color: rgb(40, 38, 38);
+    font-family: 'Merriweather', serif;;
+    font-size: large;
+    background-color:rgb(247, 241, 241);
+}
+tr{
+    border: 1px solid rgb(196, 188, 188);
+    height: 90px;
+    letter-spacing: 0.4px;
+    color: rgb(81, 71, 71);
+    font-size: smaller;
+}
+td{
+    text-align: center;
+    font-family: 'Anek Tamil', sans-serif;
+}
+.LMONE{
+    background-color:rgb(247, 241, 241);
+    height: 50px;
+}
+.LM:hover{
+    background-color:rgb(70, 68, 68);
+    cursor: pointer;
+    color: white;
+}
+
